@@ -3,9 +3,9 @@ Tableau project analyzing crime data to uncover patterns, trends, and insights. 
 
 
 
-# 🕵️ Crime Analysis Dashboard (Tableau)
+# Crime Analysis Dashboard (Tableau)
 
-## 📌 Project Overview  
+## Project Overview  
 Crime analysis plays a vital role in supporting law enforcement agencies by identifying crime patterns and enabling data-driven decision-making. This project focuses on building **interactive Tableau dashboards** to analyze crime statistics, detect trends, and provide actionable insights for the police department.  
 
 The dashboards help in:  
@@ -16,14 +16,14 @@ The dashboards help in:
 
 ---
 
-## 🎯 Problem Objective  
+## Problem Objective  
 As a data scientist, the goal was to:  
 - **Prepare a dashboard/story in Tableau** to keep the police department and city updated on crime statistics.  
 - **Enable data storytelling** by presenting clear, interactive, and insightful visualizations.  
 
 ---
 
-## 📊 Dataset & Variables  
+## Dataset & Variables  
 The dataset was provided through the course LMS and includes detailed crime records.  
 
 **Key Variables:**  
@@ -42,7 +42,7 @@ The dataset was provided through the course LMS and includes detailed crime reco
 
 ---
 
-## 🛠️ Steps & Dashboards Created  
+## 🛠Steps & Dashboards Created  
 
 ### 1️⃣ Overall Crime Statistics Dashboard  
 - Displayed **total count and types of crimes** reported.  
