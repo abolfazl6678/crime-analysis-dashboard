@@ -50,7 +50,7 @@ The dataset was provided at the of the course and includes detailed crime record
 - Updated On –------------------- Date and time the record was last updated
 - Latitude ---------------------- Latitude of the location, where the incident occurred
 - Longitude --------------------- Longitude of the location, where the incident occurred
-- Location ---------------------- Indicates the location, where the incident occurred in a format that allows for
+- Location ---------------------- The location, where the incident occurred in a format that allows for
                                     the creation of maps and other geographic operations on this data portal
 
 ---
@@ -80,13 +80,20 @@ The dataset was provided at the of the course and includes detailed crime record
 ---
 
 ## Repository Structure  ???
-
-Crime-Analysis/
-│── data/ # Raw dataset (CSV or Excel files)
+```
+Crime-Analysis-/
+│── data/
+│ └── Crime_data.xlsx
 │── tableau/ # Tableau workbook (.twb/.twbx)
-│── outputs/ # Exported dashboards (PDF/PNG/Screenshots)
-│── README.md # Project documentation
-
+│ ├── Aggregation_Grouping.xlsx
+│ ├── Aggregation_Grouping.xlsx
+│── outputs/
+│ ├── Aggregation_Grouping.xlsx
+│ ├── Aggregation_Grouping.xlsx
+│ ├── Aggregation_Grouping.xlsx
+│ ├── Aggregation_Grouping.xlsx
+│── README.md
+```
 
 
 
