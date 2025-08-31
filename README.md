@@ -104,6 +104,9 @@ Crime-Analysis-/
 - Improved skills in **data analysis & visualization**.  
 
 ---
+## Note: 
+To receive the data (csv), please send an email to : ab.zolfaghari.abbasghaleh@gmail.com
+
 
 ## Future Work  
 - Incorporate **real-time data feeds** (if available).  
