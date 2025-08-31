@@ -1,7 +1,6 @@
-# crime-analysis-dashboard (Tableau)
 Tableau project analyzing crime data to uncover patterns, trends, and insights. Includes interactive dashboards for law enforcement decision-making and public communication.
 
-## Project Overview  ???
+## Project Overview
 Crime analysis plays a vital role in supporting law enforcement agencies by identifying crime patterns and enabling data-driven decision-making. This project focuses on building **interactive Tableau dashboards** to analyze crime statistics, detect trends, and provide actionable insights for the police department.  
 
 The dashboards help in:  
@@ -17,12 +16,13 @@ As a data scientist, the goal was to:
 - Prepare a dashboard in Tableau to keep the police department and city updated on crime statistics.  
 - Enable data storytelling by presenting clear, interactive, and insightful visualizations.  
 
-
 ---
 
-## Tools & Techniques Used  ???
-As a data scientist, the goal was to:  
- 
+## Tools & Techniques Used
+- **Business Intelligence (BI) & Data Visualization Tool:** Tableau
+- **Data Prepartion:** Python and 
+- **csv file handling:** Excel
+- **GitHub** – Project hosting & documentation  
 
 ---
 
@@ -51,77 +51,63 @@ The dataset was provided at the of the course and includes detailed crime record
 - Latitude ---------------------- Latitude of the location, where the incident occurred
 - Longitude --------------------- Longitude of the location, where the incident occurred
 - Location ---------------------- The location, where the incident occurred in a format that allows for
-                                    the creation of maps and other geographic operations on this data portal
+                                 the creation of maps and other geographic operations on this data portal
 
 ---
 
-## Steps & Dashboards Created  ??
+## Steps & Dashboards Created
 
-### 1️⃣ Overall Crime Statistics Dashboard  
-- Displayed **total count and types of crimes** reported.  
+### Overall Crime Statistics Dashboard  
+- Showed **live crime feed**:The most recent crime (time & location).  
+- Displayed **total count of crimes per type** reported.  
 - Highlighted **crime locations on a geo-map** (hotspots).  
-- Added **live crime feed**: total crimes reported in the current year + most recent crime (time & location).  
 
-### 2️⃣ Time Period Analysis Dashboard  
+### Time Period Analysis Dashboard  
 - Distribution of crime incidents by **day of the week** and **hour of the day**.  
 - Percentage of crimes by **time blocks** (e.g., early morning, afternoon, evening).  
 
-### 3️⃣ Trend Analysis Dashboard  
-- Studied changes in **crime rate across years**.  
-- Compared **incident reporting trends** for the same date/time across years.  
+### Trend Analysis Dashboard  
+- Studied changes in **crime rate across years**.
 
-### 4️⃣ Comparative Analysis Dashboard  
+### Comparative Analysis Dashboard  
 - Analyzed incidents with **arrest vs. no arrest**.  
 - Percentage of **domestic-related incidents** by crime category.  
 
-### 5️⃣ Interactivity  
-- Added **filters** for incident type and location for granular exploration.  
-
 ---
 
-## Repository Structure  ???
+## Project Structure
 ```
 Crime-Analysis-/
 │── data/
 │ └── Crime_data.xlsx
-│── tableau/ # Tableau workbook (.twb/.twbx)
-│ ├── Aggregation_Grouping.xlsx
-│ ├── Aggregation_Grouping.xlsx
+│── tableau/ (.twbx)
+│ ├── Overall_Crime_Statistics_Dashboard.twbx
+│ ├── Time_Period_Analysis_Dashboard.twbx
+│ ├── Trend_Analysis_Dashboard.twbx
+│ └── Comparative_Analysis_Dashboard.twbx
 │── outputs/
-│ ├── Aggregation_Grouping.xlsx
-│ ├── Aggregation_Grouping.xlsx
-│ ├── Aggregation_Grouping.xlsx
-│ ├── Aggregation_Grouping.xlsx
-│── README.md
+│ ├── Overall_Crime_Statistics_Dashboard_1.png
+│ ├── Overall_Crime_Statistics_Dashboard_2.png
+│ ├── Time_Period_Analysis_Dashboard_1.png
+│ ├── Time_Period_Analysis_Dashboard_2.png
+│ ├── Trend_Analysis_Dashboard.png
+│ ├── Comparative_Analysis_Dashboard_1.png
+│ └── Comparative_Analysis_Dashboard_2.png
+└── README.md
 ```
-
-
-
-
----
-
-## Dashboard Snapshots (Samples)  ??????
-_Add exported PNGs or PDFs of your Tableau dashboards here for recruiters to see._  
-
----
-
-## Tools & Technologies  
-- **Tableau** – Dashboard creation & visualization  
-- **Excel/CSV** – Data source format  
-- **GitHub** – Project hosting & documentation  
 
 ---
 
 ## Key Learnings  
 - Gained hands-on experience in **data storytelling** with Tableau.  
 - Learned how to create **interactive dashboards** for real-world use cases.  
-- Improved skills in ** data analysis & visualization**.  
+- Improved skills in **data analysis & visualization**.  
 
 ---
 
-## 📌 Future Work  
+## Future Work  
 - Incorporate **real-time data feeds** (if available).  
-- Extend analysis with **predictive modeling** using Python.  
+- Extend analysis with **predictive modeling** using Python and ML models.  
 - Build **automated Tableau dashboards** for scheduled updates.  
 
 ---
